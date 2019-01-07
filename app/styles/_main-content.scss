@@ -2,5 +2,11 @@ main{
     margin-top: 20px;;
     background-color: #fff;
     
+    .row{
+        width: 100%;
+        max-width: 100%;
+    }
+    @import "main/ouvidoria.scss";
+    @import "main/newsletter.scss";
     @import "main/sic.scss";
 }

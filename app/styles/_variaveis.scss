@@ -13,7 +13,7 @@
   src: url("../fonts/opensans.woff2");
 }
 
-@mixin magin-top-bottom($top: 32px, $bottom: 32px){
+@mixin magin-top-bottom($top: 16px, $bottom: 32px){
   margin-top: $top;
   margin-bottom: $bottom;
 }
