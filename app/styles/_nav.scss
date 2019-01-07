@@ -25,23 +25,39 @@
                     float: right;
                     cursor: pointer;
                     background: #F8F7F7 url(../images/sprites.png) no-repeat;
+                    transition-duration: 0.2s;
                     background-size : 1010%;
 
                 }
                 #nav-eouv{
                     background-position: 85% 23%;
+                    &:hover{
+                        background-position: 85% 75%;
+                    }
                 }
                 #nav-info{
                     background-position: 96% 23%;
+                    &:hover{
+                        background-position: 96% 75%;
+                    }
                 }
                 #nav-twitter{
                     background-position: 73% 23%;
+                    &:hover{
+                        background-position: 73% 75%;
+                    }
                 }
                 #nav-youtube{
                     background-position: 61.5% 23%;
+                    &:hover{
+                        background-position: 61.5% 75%;
+                    }
                 }
                 #nav-facebook{
                     background-position: 5% 23%;
+                    &:hover{
+                        background-position: 5% 75%;
+                    }
                 }
             }
         }
