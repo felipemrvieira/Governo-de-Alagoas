@@ -1,14 +1,7 @@
 #sic-container{
     @include magin-top-bottom();
-    .titulo-modulo{
-        margin-bottom: 12px;
-        border-bottom: 1px solid #E5E5E5;
-        h3{
-            text-transform: uppercase;
-            font-size: 24px;
-            font-family: 'Open Sans',Helvetica,Arial,Sans-Serif;
-        }
-    }
+    @include titulo-modulo();
+    
     .a-banner{
       text-decoration: none;
   
